@@ -1,0 +1,213 @@
+@media only screen and (max-width: 700px) {
+
+	.sidebar{
+
+	position: fixed;
+	width: 700px;
+	height: 100%;
+	left: -700px;
+	background-color: white;
+	z-index: 1;
+	transition: all .5s ease;
+	
+}
+.sidebar ul a{
+ 	height: 100%;
+ 	width: 100%;
+ 	line-height: 80px;
+ 	color: #B8B8B8;
+ 	text-align: center;
+ 	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 50px;
+	transition: .4s;
+
+}
+
+.language.box{
+position: fixed;
+width: 133px;
+height: 34px;
+padding-top: 80px;
+padding-left: 140px;
+transition: .9s;
+
+}
+.white.rectangle.side{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #FFFFFF;
+
+}
+
+.eng.box{
+position: fixed;
+width: 40px;
+height: 17px;
+margin-left: 40px;
+border-radius: 16px;
+
+background: #000000;
+}
+.idn.box{
+position: fixed;
+width: 40px;
+height: 17px;
+margin-left: 117px;
+border-radius: 16px;
+
+background: #FFFFFF;
+}
+.material-icons{
+position: fixed;
+width: 17px;
+height: 17px;
+margin-left: 88px;
+margin-top: -3px;
+}
+
+#check{
+	display: none;
+}
+label #btn, label #cancel{
+	position: fixed;
+	cursor: pointer;
+}
+label #btn{
+	position: absolute;
+	width: 100px;
+	height: 114px;
+	top: 0px;
+	left: 180px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+label #cancel{
+	z-index: 1111;
+	left: -340px;
+	top: 20px;
+	font-size: 30px;
+	padding: 4px 9px;
+	transition: all .5s ease;
+
+}
+#check:checked ~ .sidebar{
+	left: 0;
+}
+#check:checked ~ label #btn{
+	 left: 200px;
+	 opacity: 0;
+}
+#check:checked ~ label #cancel{
+	left: 340px;
+}
+
+
+
+
+
+
+	/*es kopi jiwa*/
+
+section#es.kopi.jiwa{
+/* Rectangle 4 */
+
+position: absolute;
+width: 573px;
+left: 867px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.promo.photo1{
+position: absolute;
+height: 480px;
+width: 100%;
+left: 0px;
+top: 100px;
+}
+.EsKopiJiwa.box{
+position: absolute;
+width: 485px;
+height: 800px;
+left: 0px;
+top: 580px;
+
+background: #FFFFFF;
+}
+section#es.kopi.jiwa{
+/* Rectangle 4 */
+
+position: absolute;
+width: 573px;
+height: 800px;
+left: 300px;
+top: 800px;
+
+background: #FFFFFF;
+}
+.adc{
+	width: 160px;
+	height: 32px;
+	background-color: black;
+	margin-top: 65px;
+	margin-left: 173px;
+	border-radius: 23px;
+	cursor: pointer;
+}
+
+
+	/*es kopi raga*/
+
+section#es.kopi.raga{
+position: absolute;
+width: 573px;
+left: 867px;
+top: 800px;
+
+background: #FFFFFF;
+}
+.promo.photo2{
+position: absolute;
+height: 475px;
+width: 100%;
+left: 0px;
+top: 1380px;
+}
+.EsKopiRaga.box{
+position: absolute;
+width: 485px;
+height: 450px;
+left: 0px;
+top: 1855px;
+
+background: #FFFFFF;
+}
+.adc2{
+	width: 160px;
+	height: 32px;
+	background-color: black;
+	margin-top: 70px;
+	margin-left: 170px;
+	border-radius: 23px;
+	cursor: pointer;
+}
+
+	/*footer*/
+	
+.footer.white{
+	position: absolute;
+	width: 485px;
+	height: 50px;
+	margin-left: 0px;
+	bottom: -1530px;
+
+	background: #FFFFFF;
+
+}
+
+
