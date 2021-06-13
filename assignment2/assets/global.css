@@ -101,7 +101,7 @@ z-index: 1;
 section#advertisement{
 	width: 100vw !important;
 	height: 60vh;
-	background-image: url('../images/ad.jpeg');
+	background-image: url('assignment2/images/ad.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 2;
