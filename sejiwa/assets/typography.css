@@ -1,0 +1,120 @@
+* {
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+.menulist h4{
+
+font-weight: normal;
+font-size: 16px;
+line-height: 48px;
+
+}
+
+.language p{
+text-align: center;
+font-size: 14px
+}
+
+.language i{
+text-align: center;
+}
+
+/*section 2*/
+
+#right2 h5{
+
+/* TRY OUR SIGNATURE DRINK! */
+
+position: absolute;
+width: 196px;
+height: 25px;
+left: 199px;
+top: 125px;
+
+font-family: Gafata;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#right2 h1 {
+	/* ES KOPI JIWA */
+
+position: absolute;
+width: 282px;
+height: 44px;
+left: 157px;
+top: 182px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#right2 hr{
+	/* Line 1 */
+
+position: absolute;
+width: 100px;
+height: 0px;
+left: 248px;
+top: 258px;
+visibility: hidden;
+
+border: 1px solid #000000;
+
+}
+
+#right2 h3 {
+	/* OUR SIGNATURE ICED COFFEE WITH HOMEMADE RECIPE */
+
+position: absolute;
+width: 352px;
+height: 66px;
+left: 119px;
+top: 290px;
+
+font-family: Gafata;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+#right2 h4 {
+	/* Rp 29.500 - S Rp 35.000 - L */
+
+position: absolute;
+width: 208px;
+height: 66px;
+left: 191px;
+top: 403px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+
+
+}

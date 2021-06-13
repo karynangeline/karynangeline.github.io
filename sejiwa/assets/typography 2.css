@@ -1,0 +1,44 @@
+* {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+	/*es kopi jiwa*/
+
+.EsKopiJiwa.box h6{
+	/* #StayAtHome , we are coming to you! */
+
+position: absolute;
+width: 278px;
+height: 28px;
+left: 1026px;
+top: 85px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #C7747C;
+}
+
+.EsKopiJiwa.box h2{
+	/* ES KOPI JIWA */
+
+
+position: absolute;
+width: 492px;
+height: 66px;
+left: 919px;
+top: 127px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+color: #000000;
+}
