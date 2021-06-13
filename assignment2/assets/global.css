@@ -26,7 +26,7 @@ nav#white{
 .logo {
 	width: 100px; 
 	height: 40px;
-	background-image:url('../images/logo.png');
+	background-image:url('./images/logo.png');
 	background-size: contain;
 	position: fixed;
 	margin-top: 40px;
