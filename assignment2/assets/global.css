@@ -1,0 +1,470 @@
+*{
+	margin: 0 auto;
+	font-family: Verdana
+}
+
+nav{
+	width: 100vw;
+	height: 100px;
+	background-color: #0058AB;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+nav#white{
+	width: 100vw;
+	height: 25px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.logo {
+	width: 100px; 
+	height: 40px;
+	background-image:url('../images/logo.png');
+	background-size: contain;
+	position: fixed;
+	margin-top: 40px;
+	margin-left: 10vw;
+	align-self: right;
+
+}
+
+.menu {
+	width: 30px;
+	height: 40px;
+	background-color: #0058AB;
+	position: fixed;
+	margin-top: 48px;
+	margin-left: 7vw
+}
+
+.cart{
+	width: 30px;
+	height: 40px;
+	background-color: transparent;
+	color: white;
+	position: fixed;
+	margin-top: 48px;
+	margin-left: 88vw
+}
+
+
+.search {
+	width: 320px;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	border-radius: 15px;
+	margin-top: 40px;
+	margin-left: 64vw;
+
+}
+
+.search i{
+	top: 5px; 
+	left: 5px; 
+	vertical-align: middle;
+	}
+
+.search p{
+font-size: 14px;
+padding-top: 10px;
+padding-left: 10px;
+vertical-align: middle;
+}
+
+.iconsearch{
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	position: fixed;
+	margin-top: 40px;
+	margin-left: 70vw;
+	display: none;
+}
+main {
+	width: 100vw;
+margin-top: 50px;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+width: 80vw;
+z-index: 1;
+			}
+
+section#advertisement{
+	width: 100vw !important;
+	height: 60vh;
+	background-image: url('../images/ad.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-top: 0
+}
+
+
+section#psa{
+	width: 100%;
+	height: 60px;
+	background-color: #0058AB;
+	margin-top: 100px;
+}
+
+.psa i{
+		font-size: 24px;
+		color:#FBD914; 
+		vertical-align: middle;
+	}
+
+section#featured {
+	margin:0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 82vw;
+	float: left;
+	padding: 20px;
+}
+
+
+section#ideas {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 50vw;
+	float: left;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	padding: 20px;
+
+}
+
+section#collection {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 90vw;
+	float: left;
+	border-bottom-style: groove;
+	padding: 20px;
+
+
+}
+
+section#store{
+margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 70vh;
+	float: left;
+	padding: 20px;
+}
+
+section#footer{
+/* Rectangle 33 */
+
+position: absolute;
+width: 1440px;
+height: 550px;
+left: 0px;
+top: 4200px;
+
+background: #0058AB;
+
+}
+
+section#footer2{
+/* Rectangle 36 */
+
+position: absolute;
+width: 100vw;
+height: 70px;
+left: 0px;
+top: 5000px;
+
+background: #FFFFFF;
+
+
+}
+
+section#haugahead {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 85vw;
+	float: left;
+	border-bottom-style: groove;
+	padding: 20px;
+}
+
+section#hauga {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 60vw;
+	float: left;
+	border-bottom-style: groove;
+	padding: 20px;
+}
+
+section#products {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 85vw;
+	float: left;
+	padding: 20px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	height: 100px;
+}
+.container-footer{
+	max-width: 1170px;
+	margin: auto;
+	padding-top: 50px;
+}
+.row-footer{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-footer{
+	width: 25%;
+	padding: 15px;
+	color: white;
+}
+.col-footer2{
+	width: 15%;
+	padding: 15px;
+
+}
+
+.col-footer3{
+	width: 15%;
+	padding: 15px;
+
+}
+
+.col-footer4{
+	width: 15%;
+	padding: 15px;
+
+}
+.footer-list{
+	font-size: 13px;
+	padding-top: 20px;
+	line-height: 35px;
+}
+
+.footer2.box{
+	font-size: 12px;
+	width: 40%;
+	margin-left: 40px;
+	padding-top: 25px;
+	color: black;
+	float: left;
+	padding-bottom: 25px;
+}
+.footer2.box2{
+	font-size: 12px;
+	width: 35%;
+	margin-top: 25px;
+	margin-right: 40px;
+	padding-bottom: 25px;
+	color: #0058AB;
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#helpfullinks{
+	display: none;
+}
+@media only screen and (max-width: 700px) {
+	section#footer2 {
+		top: 4600px;
+	}
+
+	#helpfullinks {
+	/* Rectangle 38 */
+
+position: absolute;
+width: 338px;
+height: 34px;
+left: 85px;
+top: 370px;
+display: block;
+color: white;
+
+background: transparent;
+flex-wrap: wrap;
+font-size: 12px;
+font-weight: bold;
+
+}
+
+	.footer2.box{
+		left: 220px;
+		width: 400px;
+		white-space: nowrap;
+		text-align: center;
+	}
+
+	.footer2.box2{
+		display: none;
+	}
+
+
+
+section#footer {
+width: 100%;
+height: 510px;
+top: 3000px;
+
+}
+.col-footer h1{
+	/* IKEA Family */
+
+position: absolute;
+width: 205px;
+height: 36px;
+left: 120px;
+top: 20px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+
+color: white;
+
+
+}
+
+.footer-list{
+	display: none;
+}
+
+.col-footer h1{
+	/* IKEA Family */
+
+position: absolute;
+width: 205px;
+height: 36px;
+left:140px;
+top: 70px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+
+
+}
+
+.col-footer2 h4{
+	display: none;
+}
+
+.col-footer3 h4{
+	display: none;
+}
+
+.material-icons{
+	display: none;
+}
+
+.col-footer4 h4{
+	display: none;
+}
+.col-footer p{
+	/* Some clubs are for the select few, but IKEA Family is for everyone. Become a Family member and enjoy rewards, discounts, inspirations and a few surprises all year round. */
+
+position: absolute;
+width: 260px;
+height: 110px;
+left: 120px;
+top:90px;
+text-align: center;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+
+
+.col-footer2 h1{
+	width: 5%;
+	margin-top: 10px;
+}
+.col-footer2 p{
+	width: 5%;
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.col-footer{
+	display: none;
+}
+.col-footer2{
+	display: none;
+}
+.col-footer3{
+	display: none;
+}
+.col-footer4{
+	display: none;
+}
+
+
+
+section#footer2{
+margin:0;
+	background-color: white;
+	width: 100%;
+	height: 20px; 
+	float: left;
+	z-index: 2;
+}
+.footer2.box{
+	font-size: 12px;
+	width: 40%;
+	margin-left: 40px;
+	padding-top: 25px;
+	color: black;
+	float: left;
+	padding-bottom: 25px;
+	top: 300px;
+}
+.footer2.box2{
+display: none;
+}
+
+.socials {
+	display: none;
+}
+
+
+
+}
