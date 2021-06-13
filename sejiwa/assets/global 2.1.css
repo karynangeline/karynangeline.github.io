@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+}
+.sidebar{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	left: 0px;
+	background-color: yellow;
+}
+
+.language.box{
+position: fixed;
+width: 133px;
+height: 34px;
+padding-top: 170px;
+transition: .9s;
+}
