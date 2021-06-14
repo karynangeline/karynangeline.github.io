@@ -1,0 +1,206 @@
+* {
+	font-family: 'Noto Sans', 'Courier New';
+	margin: 0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+.sidebar ul a{
+ 	height: 100%;
+ 	width: 100%;
+ 	line-height: 80px;
+ 	color: #B8B8B8;
+ 	padding-left: 50px;
+ 	text-align: center;
+ 	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 50px;
+	transition: .4s;
+
+}
+ul li:hover a{
+	padding-left: 70px;
+	color: black;
+
+}
+.eng.box p{
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+padding-top: 1px;
+
+color: #FFFFFF;
+}
+
+.idn.box p{
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+padding-top: 1px;
+
+color: #020202;
+}
+
+	/*es kopi jiwa*/
+
+.EsKopiJiwa.box h6{
+/* #StayAtHome , we are coming to you! */
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+padding-top: 100px;
+
+color: #C7747C;
+}
+
+.EsKopiJiwa.box h2{
+/* ES KOPI JIWA */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 49px;
+text-align: center;
+padding-top: 25px;
+
+color: #000000;
+}
+.desc-line{
+position: absolute;
+width: 113px;
+height: 0px;
+margin-left: 220px;
+margin-top: 30px;
+
+}
+
+.EsKopiJiwa.box h3{
+/* Rp 150.000 */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+margin-top: 50px;
+padding-top: 10px;
+
+color: #000000;
+
+}
+.EsKopiJiwa.box p{
+/* desc */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 45px;
+text-align: center;
+margin-top: 60px;
+
+color: #000000;
+}
+.EsKopiJiwa.box h5{
+
+/* ADD TO CART */
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+padding-top: 7px;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+	/*es kopi jiwa*/
+
+.EsKopiRaga.box h6{
+/* #StayAtHome , we are coming to you! */
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+padding-top: 100px;
+
+color: #C7747C;
+}
+
+.EsKopiRaga.box h2{
+/* ES KOPI RAGA */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 49px;
+text-align: center;
+padding-top: 25px;
+
+color: #000000;
+
+}
+.EsKopiRaga.box h3{
+/* Rp 99.000 */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+margin-top: 50px;
+padding-top: 10px;
+
+color: #000000;
+
+}
+.EsKopiRaga.box h5{
+
+/* ADD TO CART */
+
+font-family: Courier New;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+padding-top: 7px;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.footer.white p{
+	/* © 2021 SEJIWA COFFEE */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+text-align: center;
+padding-top: 30px;
+
+color: #5C5C5C;
+
+}
