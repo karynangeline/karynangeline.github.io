@@ -1,0 +1,194 @@
+*{
+margin: 0;
+padding: 0;
+}
+.sidebar{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	left: -300px;
+	background-color: white;
+	transition: all .5s ease;
+}
+
+.language.box{
+position: fixed;
+width: 133px;
+height: 34px;
+padding-top: 80px;
+padding-left: 4px;
+transition: .9s;
+
+
+}
+
+.white.rectangle.side{
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: #FFFFFF;
+
+}
+
+.eng.box{
+position: fixed;
+width: 40px;
+height: 17px;
+margin-left: 40px;
+border-radius: 16px;
+
+background: #000000;
+}
+.idn.box{
+position: fixed;
+width: 40px;
+height: 17px;
+margin-left: 117px;
+border-radius: 16px;
+
+background: #FFFFFF;
+}
+.material-icons{
+position: fixed;
+width: 17px;
+height: 17px;
+margin-left: 88px;
+margin-top: -3px;
+}
+
+#check{
+	display: none;
+}
+label #btn, label #cancel{
+	position: fixed;
+	cursor: pointer;
+}
+label #btn{
+	position: fixed;
+	width: 127px;
+	height: 141px;
+	left: 94px;
+	top: 209px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+label #cancel{
+	z-index: 1111;
+	left: -158px;
+	top: 17px;
+	font-size: 30px;
+	padding: 4px 9px;
+	transition: all .5s ease;
+
+}
+#check:checked ~ .sidebar{
+	left: 0;
+}
+#check:checked ~ label #btn{
+	 left: 158px;
+	 opacity: 0;
+	 pointer-events: none;
+}
+#check:checked ~ label #cancel{
+	left: 158px;
+}
+
+	/*es kopi jiwa*/
+
+section#es.kopi.jiwa{
+/* Rectangle 4 */
+
+position: absolute;
+width: 573px;
+left: 867px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.promo.photo1{
+position: absolute;
+height: 800px;
+width: 800px;
+left: 300px;
+}
+.EsKopiJiwa.box{
+position: absolute;
+width: 558px;
+height: 800px;
+left: 867px;
+top: 0px;
+
+background: #FFFFFF;
+}
+section#es.kopi.jiwa{
+/* Rectangle 4 */
+
+position: absolute;
+width: 573px;
+height: 800px;
+left: 300px;
+top: 800px;
+
+background: #FFFFFF;
+}
+.adc{
+	width: 160px;
+	height: 32px;
+	background-color: black;
+	margin-top: 65px;
+	margin-left: 208px;
+	border-radius: 23px;
+	cursor: pointer;
+}
+
+
+	/*es kopi raga*/
+
+section#es.kopi.raga{
+position: absolute;
+width: 573px;
+left: 867px;
+top: 800px;
+
+background: #FFFFFF;
+}
+.promo.photo2{
+position: absolute;
+
+
+left: 300px;
+top: 800px;
+height: 800px;
+width: 800px;
+}
+.EsKopiRaga.box{
+position: absolute;
+width: 558px;
+height: 800px;
+left: 867px;
+top: 800px;
+
+background: #FFFFFF;
+}
+.adc2{
+	width: 160px;
+	height: 32px;
+	background-color: black;
+	margin-top: 350px;
+	margin-left: 208px;
+	border-radius: 23px;
+	cursor: pointer;
+}
+
+	/*footer*/
+
+.footer.white{
+	position: absolute;
+	width: 1125px;
+	margin-left: 300px;
+	height: 70px;
+	bottom: -900px;
+
+	background: #FFFFFF;
+
+}
