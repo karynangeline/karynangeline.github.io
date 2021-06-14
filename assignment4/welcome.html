@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sejiwa</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sejiwa</title>
+	<link rel="stylesheet" type="text/css" href="assets/global.css">
+	<link rel="stylesheet" type="text/css" href="assets/typography.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gafata&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style type="text/css">
+		#yo {
+			transition: top 1s;
+		}
+	</style>
+</head>
+<body onload="goup()">
+	<div id="yo" class="background">
+		<div class="menu">
+			<div class="welcome"> WELCOME 
+			</div>
+			<div class="to">TO</div>
+			<a href="index.html"><img src="images/logo.jpeg"></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function goup() {
+			setTimeout(function(){ 
+				document.getElementById('yo').style.top = "-100vh";
+				location.href = 'index.html';
+			}, 3000);
+		}
+	</script>
+</body>
+</html>
