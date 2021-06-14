@@ -14,7 +14,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/hero.jpeg);
+background: url(../images/hero.jpeg);
 background-size: cover;
 overflow: hidden;
 
@@ -54,7 +54,7 @@ height: 200px;
 left: 610px;
 top: 0px;
 
-background: url(images/logo.jpeg);
+background: url(../images/logo.jpeg);
 background-size: cover;
 
 }
@@ -112,7 +112,7 @@ color: #000000;
 	left: 40px;
 	top: 322px;
 
-	background: url(images/logo.jpeg);
+	background: url(../images/logo.jpeg);
 	background-position: center;
 	background-size: cover;
 
@@ -301,7 +301,7 @@ color: #5c5c5c;
 	top: 0px;
 	visibility: hidden;
 
-	background: url(images/wolf.jpeg);
+	background: url(../images/wolf.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -507,7 +507,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/kopijiwa.jpg);
+background: url(../images/kopijiwa.jpg);
 background-position: center;
 visibility: hidden;
 
@@ -713,7 +713,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/promo.jpg);
+background: url(../images/promo.jpg);
 background-position: center;
 visibility: hidden;
 
@@ -938,7 +938,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/shop.jpg);
+background: url(../images/shop.jpg);
 background-position: center;
 visibility: hidden;
 max-width: 568px
@@ -1092,7 +1092,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/jokowi.jpeg);
+background: url(../images/jokowi.jpeg);
 background-position: center;
 visibility: hidden;
 }
@@ -1233,7 +1233,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/resto.jpeg);
+background: url(../images/resto.jpeg);
 background-position: center;
 visibility: hidden;
 }
@@ -1386,7 +1386,7 @@ height: 100vh;
 left: 0px;
 top: 0px;
 
-background: url(images/contact.jpg);
+background: url(../images/contact.jpg);
 background-position: center;
 visibility: hidden;
 }
