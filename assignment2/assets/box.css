@@ -1,0 +1,557 @@
+.psa{
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 14px;
+	margin-left: 9vw;
+	align-self: center;
+	vertical-align: center
+}
+
+.heading1{
+	margin: 0; 
+	font-size: 24px; 
+	color: black; 
+	background-color: white;
+	width:  calc(100% - 20px);
+	height: 70px;
+	text-align: center;
+	float: center;
+	padding: 25px;
+	
+}
+
+.heading2{
+/* More ideas and inspiration */
+
+position: absolute;
+width: 717px;
+height: 80px;
+left: 344px;
+top: 1900px;
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 58px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.box.desc {
+	margin: 0; 
+	width: 40%;
+	height: 50px;
+	float: right;
+	text-align: left;
+	background-color: white;
+	padding-left: 70px;
+
+	}
+	.box.desc h1{
+	font-size: 50px
+	}
+	.box.desc p{ 
+	font-size: 13px; 
+	padding-top: 10px;
+	}
+	.box.desc p{
+	font-size: 13px; 
+	padding-top: 50px
+	}
+	.box.desc p{
+	  font-size: 13px;
+	  padding-top: 10px; 
+	  padding-bottom: 25px;
+}
+
+.row {
+	margin-top: 60vh
+}
+
+
+.column.featured {
+    float: left;
+    width: 220px;
+    padding: 10px;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.productimg{
+	width: 150px;
+	height: 220px;
+	margin-top: 5px;
+	padding: 10px;
+	image-rendering: 
+}
+
+.productimg img{
+	width: 220px;
+}
+.button.black{
+	width: 320px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 15px;
+	float: left;
+	margin-top: 200px
+}
+
+.button.product{
+	/* Rectangle 9 */
+
+position: absolute;
+width: 340px;
+height: 50px;
+left: 551px;
+top: 1750px;
+
+background: #000000;
+border-radius: 25.5px;
+color: white;
+font-size: 18px;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.button.black2{
+	/* Rectangle 9 */
+
+position: absolute;
+width: 299.07px;
+height: 50px;
+left: 569px;
+top: 3850px;
+
+background: #000000;
+border-radius: 37px;
+color: white;
+text-align: center;
+padding-top: 10px
+
+}
+
+#ideasinsp{
+	/* Rectangle 37 */
+margin: 0 auto;
+position: absolute;
+width: 1100px;
+height: 663px;
+left: 165px;
+top: 2000px;
+
+background: transparent;
+
+}
+
+.box.ideas.heading {
+	margin: 0; 
+	color: black;
+	text-align: left;
+	background-color: white;
+	width: 30%;
+	height: 200px;
+	float: left;
+	padding: 20px;
+	font-size: 36;
+
+
+}
+.box.ideas.heading2 {
+/* Rectangle 38 */
+
+position: absolute;
+width: 1289px;
+height: 307px;
+float: left;
+left: 0px;
+top: 280px;
+
+background: transparent;
+
+	
+
+}
+
+.box.ideas.heading2 h2{
+	/* Set the table for a private dinner party */
+
+position: absolute;
+width: 300px;
+height: 100px;
+left: 20px;
+
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: left;
+line-height: 30px;
+
+
+color: #000000;
+
+
+}
+
+.box.ideas.heading2 p{
+	/* When it’s time to celebrate, but you and your family can’t go outside. */
+
+position: absolute;
+width: 300px;
+height: 55px;
+left: 20px;
+top: 90px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+
+color: #000000;
+
+
+}
+
+.box.ideas.pic2 {
+	width: 60%;
+	height: 200px;
+	padding: 25px;
+	background-image: url(../images/dinner.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: right;
+	left: 180px
+
+}
+.box.ideas.pic {
+	width: 60%;
+	height: 200px;
+	padding: 25px;
+	background-image: url(../images/valentines.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: right;
+	margin-bottom: 30px;
+	
+}
+
+.box.ideas.hauga{
+	width: 450px;
+	height: 100px;
+	padding: 25px;
+	background-image: url(images/smastad cover.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.box.ideas.hauga img{
+	width: 450px;
+	
+}
+
+.button.solution2{
+	/* Rectangle 9 */
+
+position: absolute;
+width: 330px;
+height: 40px;
+left: 20px;
+top: 200px;
+
+background: #000000;
+border-radius: 15px;
+
+}
+
+.button.solution2 h4{
+	/* Rectangle 9 */
+color: white;
+font-size: 16px;
+height: 40px;
+margin-top: -10px;
+vertical-align: middle;
+
+}
+
+.box.heading.hauga{
+	margin: 0;
+    color: black;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    float: left;
+    padding: 20px;
+    font-size: 36;
+}
+
+.box.heading.hauga h2{
+float: left;"
+}
+
+.box.heading.hauga p{
+	float: left;
+	margin-top: 0px
+}
+
+
+.button.white2{
+width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top:  240px;
+	float: left;
+}
+.box.ideas.smastad{
+	width: 450px;
+	height: 100px;
+	padding: 25px;
+	background-image: url(../Images/smastad cover.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-top: 300px;
+}
+
+.box.ideas.smastad img{
+width: 450px;
+} 
+
+.box.collections.pic1{
+	width: 20%;
+	height: 50px;
+	padding-top: 40px;
+	background-image: url(../images/hauga tv bench.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-right: 30px;
+}
+
+
+.box.collections.pic2{
+	width: 20%;
+	height: 50px;
+	padding-left: 30px;
+	padding-top: 40px;
+	background-image: url(../images/hauga tv bench.jpeg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 90px;
+
+		
+}
+.box.ideas.hsmastad {
+	margin-top: 300px; 
+	color: black;
+	text-align: left;
+	background-color: white;
+	width: 30%;
+	height: 200px;
+	float: left;
+	padding: 20px;
+	font-size: 36;
+
+}
+
+.box.ideas.hsmastad h2{
+	 float: left;
+}
+
+.box.ideas.hsmastad p{
+	float: left;
+	margin-top: 0px
+}
+
+.button.white1{
+	width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top:  240px;
+	float: left;
+}
+
+
+.box.icon {
+	padding: 20px;
+	margin-left: 9vw;
+	align-self: center;
+}
+.button.yellow{
+	width: 380px;
+	height: 40px;
+	background-color: #FFD23B;
+	text-align: left;
+	border-radius: 8px;
+	border-color: #FFD23B;
+	border-width: 0.25px;
+	margin-top: 200px;
+	float: left;
+}
+.cir{
+	background-color: green;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	float: left;
+	margin-top: 12px;
+}
+.box.stock{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	text-indent: 20px;
+	text-align: left;
+}
+.button.fav{
+	width: 380px;
+	height: 40px;
+	background-color: white;
+	text-align: left;
+	border-radius: 8px;
+	border-color: black;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top: 20px;
+	float: left;
+}
+
+.filterlist {
+	display: none;
+}
+
+.box.store{
+	font-size: 50px; 
+	width: 30%; 
+	padding-top: 50px; 
+	float: left;
+}
+
+.store.text {
+	/* See you at our store! */
+
+position: absolute;
+width: 458px;
+height: 116px;
+left: 156px;
+top: 4050px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+
+color: #000000;
+
+
+}
+
+.info{
+	/* Before you visit, see IKEA Store and Pick-up Point page for information about offers, events and more. Check out our newest store page, IKEA Kota Baru Parahyangan! */
+
+position: absolute;
+width: 505px;
+height: 79px;
+left: 156px;
+top: 4220px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+
+color: #000000;
+
+
+}
+
+.box.store p{
+	 float: left; 
+	 width: 40%; 
+	 padding-top: 40px
+}
+.box.store.img{
+	/* Ikea_home-DIY_store_shopfront_ST 1 */
+
+position: absolute;
+width: 650px;
+height: 409px;
+left: 640px;
+top: 3955px;
+
+
+
+}
+
+.button.store {
+	/* Rectangle 9 */
+
+position: absolute;
+width: 324.84px;
+height: 60px;
+left: 180px;
+top: 4350px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 37px;
+
+font-size: 18px;
+padding-top: 15px;
+text-align: center;
+}
+
+.button.footer{
+	/* Rectangle 9 */
+
+position: absolute;
+width: 160.44px;
+height: 48px;
+left: 180px;
+top: 250px;
+
+background: #FFFFFF;
+border-radius: 37px;
+
+}
+.button.footer h4{
+	/* Rectangle 9 */
+
+padding-top: 12px;
+text-align: center;
+
+}
+
+section#footer{
+	top:4500px;
+}
+

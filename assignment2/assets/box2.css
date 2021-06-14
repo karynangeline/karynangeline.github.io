@@ -1,0 +1,282 @@
+section#head{
+
+margin:0;
+margin-top: 50px;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 60vw;
+	float: left;
+	padding: 20px;
+	border-bottom-style: groove;
+
+}
+
+section#productslarge {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 38vw;
+	float: left;
+	border-bottom-style: groove;
+	padding: 20px;
+}
+
+.headline {
+margin: 0; 
+	font-size: 36px; 
+	color: black; 
+	background-color: white;
+	width:  calc(100% - 20px);
+	height: 90px;
+	text-align: center;
+	float: center;
+	padding-left: 20px;
+	margin-top: 10px
+}
+
+.coverpic {
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/cover.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 2;
+	margin-top: 0
+}
+
+.intro {
+	margin: 0; 
+	font-size: 24px; 
+	color: black; 
+	background-color: white;
+	width:  calc(100% - 20px);
+	height: 70px;
+	text-align: center;
+	float: center;
+	padding-left: 20px;
+}
+
+.intro p{
+	text-align: justify; 
+	font-size: 20px
+	}
+
+.box.ideas.sections{
+	width: 600px;
+	height: 500px;
+	margin-top: 20px;
+	float: left;
+}
+
+.box.ideas.sections img{
+	width: 500px
+}
+
+.box.text {
+	margin: 0;
+	color: black;
+	text-align: left;
+	background-color: white;
+	width: 400px;
+	height: 200px;
+	float: left;
+	padding: 20px;
+	font-size: 36;
+}
+
+.box.text h2{
+	 font-size: 32px; 
+	 float: left;
+}
+
+.box.text p{
+	 margin-top: 10px;
+	 font-size: 32px; 
+	 float: left;
+	 font-size: 16px
+}
+
+
+.button.more1 {
+	width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top:  250px;
+	float: left;
+
+}
+
+.button.more2 {
+	width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top:  270px;
+	float: left;
+}
+
+.button.more3 {
+	width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top: 190px;
+	float: left;
+}
+
+.button.more4{
+	width: 320px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.25px;
+	margin-top:  230px;
+	float: left;
+}
+
+.filters{
+	width: 15%;
+	height: 40px;
+	border-right-style: groove;
+	float: left;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+
+ {
+        box-sizing: border-box;
+    }
+
+.column {
+    float: left;
+    width: 250px;
+    padding: 10px
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.productimg{
+	width: 200px;
+	height: 220px;
+	margin-top: 5px;
+	padding: 10px;
+	image-rendering: 
+}
+
+.productimg img{
+width: 220px
+}
+
+.new {
+	width: 50px;
+	height: 20px;
+	background-color: #FBD914;
+	color: white;
+	margin-left: 0;
+	position: absolute;
+
+}
+
+.box.check {
+	width: 20px;
+	height: 20px;
+	background-color: #c4c4c4;
+	border-radius: 2px;
+	float: left;
+	margin: 5px;
+	margin-left: 20px;
+	margin-right: 10px
+}
+
+.box.page {
+	width: 40px;
+	height: 40px;
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	float: left;
+	margin-top: 70px;
+	margin-left: 42%;
+
+}
+
+.box.page p {
+padding: 10px; 
+text-align: center;
+} 
+
+section#filter {
+	width: calc(100% - 6px);
+	height: 50px;
+	margin-top: 20px;
+	background-color: #E5E5E5;
+	float: left;
+	border-style: groove;
+	border-width: 0.5pt
+
+}
+
+section#exp {
+	width: calc(100% - 6px);
+	height: 50px;
+	margin-top: 20px;
+	background-color: white;
+	float: left;
+}
+
+section#productslist {
+	margin: 0;
+	background-color: white;
+	color: black;
+	width: calc(100% - 45px);
+	height: 300vh;
+	float: left;
+	border-bottom-style: groove;
+	padding: 20px;
+}
+
+section#footer{
+	top: 5665px
+}
+
+section#footer2{
+	top: 6150px
+}
+
+@media only screen and (max-width: 500px) {
+
+	section#footer{
+	top: 4650px
+}
+
+section#footer2{
+	top: 5100px
+}
+
+.socials{
+	display: none;
+}
+}
